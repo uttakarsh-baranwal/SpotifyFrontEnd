@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Spotify - Web Player: Music for everyone</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="icon" href="./assets/logo.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="main">
+            <div class="sidebar">
+                <div class="nav">
+                    <div class="nav-option" style="opacity: 1;">
+                        <i class="fa-solid fa-house"></i>
+                        <a href="#">Home</a>
+                    </div>
+                    <div class="nav-option">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <a href="#">Search</a>
+                    </div>
+                </div>
+                <div class="library">
+                    <div class="options">
+                        <div class="lib-option">
+                            <img src="./assets/library_icon.png" alt="library icon">
+                            <a href="#">Your Library</a>
+                        </div>
+                        <div class="icons">
+                            <i class="fa-solid fa-plus"></i>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                    </div>
+                    <div class="boxes">
+                        <div class="box-option">
+                            <ul>
+                                <li><h4>Create your first playlist</h4></li>
+                                <li><p>It's easy, we'll help you</p></li>
+                                <li><button class="btn">Create playlist</button></li>
+                            </ul>
+                        </div>
+                        <div class="box-option">
+                            <ul>
+                                <li><h4>Let's find some podcasts to follow</h4></li>
+                                <li><p>We'll keep you updated on new episodes</p></li>
+                                <li><button class="btn">Browse podcasts</button></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-content">
+                <div class="nav-bar">
+                    <div class="move-options">
+                        <img src="./assets/backward_icon.png" alt="backword icon">
+                        <img src="./assets/forward_icon.png" alt="forword icon">
+                    </div>
+                    <div class="profile-options">
+                        <button class="premium">Explore premium</button>
+                        <button class="app">
+                            <i class="fa-solid fa-circle-arrow-down"></i>
+                            <p>Install app</p>
+                        </button>
+                        <i class="fa-regular fa-user" id="profile"></i>
+                    </div>
+                </div>
+                <div class="main-boxes">
+                    <div class="recently-played"><h4>Recently Played</h4></div>
+                    <div class="box-cards">
+                        <div class="card">
+                            <ul>
+                                <li class="imageli"><img class="cardimg" src="./assets/card1img.jpeg" alt="card1"></li>
+                                <li><h5 class="cardhead">Top 50 - Global</h5></li>
+                                <li><p class="cardpara">Your daily updates of the most played tracks</p></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="trending"><h4>Trending now near you</h4></div>
+                    <div class="box-cards">
+                        <div class="card">
+                            <ul>
+                                <li class="imageli"><img class="cardimg" src="./assets/card2img.jpeg" alt="card2"></li>
+                                <li><h5 class="cardhead">Indie India</h5></li>
+                                <li><p class="cardpara">Best of the Indian Indie Scene</p></li>
+                            </ul>
+                        </div>
+                        <div class="card">
+                            <ul>
+                                <li class="imageli"><img class="cardimg" src="./assets/card3img.jpeg" alt="card3"></li>
+                                <li><h5 class="cardhead">Indie India</h5></li>
+                                <li><p class="cardpara">Best of the Indian Indie Scene</p></li>
+                            </ul>
+                        </div>
+                        <div class="card">
+                            <ul>
+                                <li class="imageli"><img class="cardimg" src="./assets/card4img.jpeg" alt="card4"></li>
+                                <li><h5 class="cardhead">Indie India</h5></li>
+                                <li><p class="cardpara">Best of the Indian Indie Scene</p></li>
+                            </ul>
+                        </div>
+                        <div class="card">
+                            <ul>
+                                <li class="imageli"><img class="cardimg" src="./assets/card3img.jpeg" alt="card3"></li>
+                                <li><h5 class="cardhead">Indie India</h5></li>
+                                <li><p class="cardpara">Best of the Indian Indie Scene</p></li>
+                            </ul>
+                        </div>
+                        <div class="card">
+                            <ul>
+                                <li class="imageli"><img class="cardimg" src="./assets/card4img.jpeg" alt="card4"></li>
+                                <li><h5 class="cardhead">Indie India</h5></li>
+                                <li><p class="cardpara">Best of the Indian Indie Scene</p></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="featured"><h4>Featured Charts</h4></div>
+                    <div class="box-cards">
+                        <div class="card">
+                            <ul>
+                                <li class="imageli"><img class="cardimg" src="./assets/card5img.jpeg" alt="card5"></li>
+                                <li><h5 class="cardhead">Indie India</h5></li>
+                                <li><p class="cardpara">Best of the Indian Indie Scene</p></li>
+                            </ul>
+                        </div>
+                        <div class="card">
+                            <ul>
+                                <li class="imageli"><img class="cardimg" src="./assets/card6img.jpeg" alt="card6"></li>
+                                <li><h5 class="cardhead">Indie India</h5></li>
+                                <li><p class="cardpara">Best of the Indian Indie Scene</p></li>
+                            </ul>
+                        </div>
+                        <div class="card">
+                            <ul>
+                                <li class="imageli"><img class="cardimg" src="./assets/card1img.jpeg" alt="card1"></li>
+                                <li><h5 class="cardhead">Indie India</h5></li>
+                                <li><p class="cardpara">Best of the Indian Indie Scene</p></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-end"><hr></div>
+            </div>
+            <div class="music-player">
+                <div class="music-startpart">
+                    <div class="album-picture">
+                        <img id="album-photo" src="./assets/album_picture.jpeg" alt="picture of the music playing">
+                    </div>
+                    <div class="album-title">
+                        <h4 class="song-name">Lost in the Woods</h4>
+                        <p class="singer-name">Peter Morales</p>
+                    </div>
+                    <div class="album-add">
+                        <img id="album-icon1" src="./assets/album_icon1.png" alt="album icon 1">
+                        <img id="album-icon2" src="./assets/album_icon2.png" alt="album icon 2">
+                    </div>
+                </div>
+                <div class="music-middlepart">
+                    <div class="play-options">
+                        <img class="play-icons" src="./assets/player_icon1.png" alt="playicon1">
+                        <img class="play-icons" src="./assets/player_icon2.png" alt="playicon2">
+                        <img class="play-icons" id="player-icon" src="./assets/player_icon3.png" alt="playicon3">
+                        <img class="play-icons" src="./assets/player_icon4.png" alt="playicon4">
+                        <img class="play-icons" src="./assets/player_icon5.png" alt="playicon5">
+                    </div>
+                    <div class="playback-bar">
+                        <span class="curr-time">00:00</span>
+                        <input type="range" min="0" max="100" class="progress-bar">
+                        <span class="tot-time">03:33</span>
+                    </div>
+                </div>
+                <div class="music-endpart">
+                    <img class="controls-icon" id="controlicon125" src="./assets/controls_icon1.png" alt="control icon 1">
+                    <img class="controls-icon" id="controlicon125" src="./assets/controls_icon2.png" alt="control icon 2">
+                    <img class="controls-icon" id="controlicon3" src="./assets/controls_icon3.png" alt="control icon 3">
+                    <img class="controls-icon" id="controlicon4" src="./assets/controls_icon4.png" alt="control icon 4">
+                    <img class="controls-icon" id="controlicon125" src="./assets/controls_icon5.png" alt="control icon 5">
+                    <input type="range" min="0" max="100" class="slider" step="1">
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
